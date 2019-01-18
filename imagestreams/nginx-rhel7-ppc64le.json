@@ -11,53 +11,13 @@
     "tags": [
       {
         "annotations": {
-          "description": "Build and serve static content via Nginx HTTP server and a reverse proxy (nginx) on RHEL 7. For more information about using this builder image, including OpenShift considerations, see https://github.com/sclorg/nginx-container/blob/master/1.8/README.md.",
-          "iconClass": "icon-nginx",
-          "openshift.io/display-name": "Nginx HTTP server and a reverse proxy 1.8",
-          "openshift.io/provider-display-name": "Red Hat, Inc.",
-          "sampleRepo": "https://github.com/sclorg/nginx-ex.git",
-          "supports": "nginx",
-          "tags": "builder,nginx",
-          "version": "1.8"
-        },
-        "from": {
-          "kind": "DockerImage",
-          "name": "registry.redhat.io/rhscl/nginx-18-rhel7:latest"
-        },
-        "referencePolicy": {
-          "type": "Local"
-        },
-        "name": "1.8"
-      },
-      {
-        "annotations": {
-          "description": "Build and serve static content via Nginx HTTP server and a reverse proxy (nginx) on RHEL 7. For more information about using this builder image, including OpenShift considerations, see https://github.com/sclorg/nginx-container/blob/master/1.10/README.md.",
-          "iconClass": "icon-nginx",
-          "openshift.io/display-name": "Nginx HTTP server and a reverse proxy 1.10",
-          "openshift.io/provider-display-name": "Red Hat, Inc.",
-          "sampleRepo": "https://github.com/sclorg/nginx-ex.git",
-          "supports": "nginx",
-          "tags": "builder,nginx",
-          "version": "1.10"
-        },
-        "from": {
-          "kind": "DockerImage",
-          "name": "registry.redhat.io/rhscl/nginx-110-rhel7:latest"
-        },
-        "referencePolicy": {
-          "type": "Local"
-        },
-        "name": "1.10"
-      },
-      {
-        "annotations": {
           "description": "Build and serve static content via Nginx HTTP server and a reverse proxy (nginx) on RHEL 7. For more information about using this builder image, including OpenShift considerations, see https://github.com/sclorg/nginx-container/blob/master/1.12/README.md.",
           "iconClass": "icon-nginx",
           "openshift.io/display-name": "Nginx HTTP server and a reverse proxy 1.12",
           "openshift.io/provider-display-name": "Red Hat, Inc.",
           "sampleRepo": "https://github.com/sclorg/nginx-ex.git",
           "supports": "nginx",
-          "tags": "builder,nginx",
+          "tags": "builder,nginx,ppc64le",
           "version": "1.12"
         },
         "from": {
@@ -77,7 +37,7 @@
           "openshift.io/provider-display-name": "Red Hat, Inc.",
           "sampleRepo": "https://github.com/sclorg/nginx-ex.git",
           "supports": "nginx",
-          "tags": "builder,nginx"
+          "tags": "builder,nginx,ppc64le"
         },
         "from": {
           "kind": "ImageStreamTag",
